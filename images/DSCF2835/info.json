@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 109,
+    "height" : 82
+  }, {
+    "width" : 218,
+    "height" : 164
+  }, {
+    "width" : 436,
+    "height" : 327
+  }, {
+    "width" : 872,
+    "height" : 654
+  }, {
+    "width" : 1744,
+    "height" : 1308
+  }, {
+    "width" : 3488,
+    "height" : 2616
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3488,
+  "@id" : "https://davehinson.github.io/IIIFcourseProject/images/DSCF2835",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2616
+}
