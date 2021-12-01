@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 3872,
+    "id" : "https://davehinson.github.io/IIIFcourseProject/images/DSC_0176/canvas/",
+    "label" : {
+      "none" : [ "DSC_0176" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://davehinson.github.io/IIIFcourseProject/images/DSC_0176/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://davehinson.github.io/IIIFcourseProject/images/DSC_0176/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 121,
+              "height" : 81
+            }, {
+              "width" : 242,
+              "height" : 162
+            }, {
+              "width" : 484,
+              "height" : 324
+            }, {
+              "width" : 968,
+              "height" : 648
+            }, {
+              "width" : 1936,
+              "height" : 1296
+            }, {
+              "width" : 3872,
+              "height" : 2592
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3872,
+            "@id" : "https://davehinson.github.io/IIIFcourseProject/images/DSC_0176",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2592
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3872,
+          "id" : "https://davehinson.github.io/IIIFcourseProject/images/DSC_0176/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2592
+        },
+        "target" : "https://davehinson.github.io/IIIFcourseProject/images/DSC_0176/canvas/"
+      } ]
+    } ],
+    "height" : 2592
+  }, {
     "width" : 3488,
     "id" : "https://davehinson.github.io/IIIFcourseProject/images/DSCF2821/canvas/",
     "label" : {
