@@ -1,0 +1,13 @@
+{
+  "id" : "https://davehinson.github.io/IIIFcourseProject/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in davehinson/IIIFcourseProject project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://davehinson.github.io/IIIFcourseProject/manifests/TerracottaWarriorsManifestCopy.json",
+    "label" : "Terracotta Warriors"
+  } ]
+}
