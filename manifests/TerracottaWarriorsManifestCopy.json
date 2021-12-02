@@ -1,0 +1,89 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://davehinson.github.io/IIIFcourseProject/manifests/TerracottaWarriorsManifestCopy.json",
+  "@type" : "sc:Manifest",
+  "label" : "Terracotta Warriors",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Images from Terracotta Warriors Exhibition, Liverpool Museum",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://ed50e576-9c70-484e-b780-c86119f27bf6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://d9e18802-7047-41c7-9c41-4aa0652d865d",
+      "@type" : "sc:Canvas",
+      "label" : "Terracotta Soldiers",
+      "height" : 2616,
+      "width" : 3488,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://574672c0-41e7-4df7-8631-99ce0c9f9e0e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://davehinson.github.io/IIIFcourseProject/images/DSCF2835/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://davehinson.github.io/IIIFcourseProject/images/DSCF2835",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2616,
+          "width" : 3488
+        },
+        "on" : "http://d9e18802-7047-41c7-9c41-4aa0652d865d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a3dcc74c-0eda-4ffb-b341-1d1b22b184e6",
+      "@type" : "sc:Canvas",
+      "label" : "Terracotta Chariot",
+      "height" : 2616,
+      "width" : 3488,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a08f539d-ea4e-42e4-bc5f-6227d206ae3e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://davehinson.github.io/IIIFcourseProject/images/DSCF2821/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://davehinson.github.io/IIIFcourseProject/images/DSCF2821",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2616,
+          "width" : 3488
+        },
+        "on" : "http://a3dcc74c-0eda-4ffb-b341-1d1b22b184e6"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r0",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "members" : [ {
+      "@id" : "http://example.org/iiif/book1/range/r1",
+      "@type" : "sc:Range",
+      "label" : "Introduction"
+    } ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://d9e18802-7047-41c7-9c41-4aa0652d865d" ]
+  } ]
+}
