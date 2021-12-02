@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://davehinson.github.io/IIIFcourseProject/manifests/TerracottaWarriorsManifestCopy.json",
     "label" : "Terracotta Warriors"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://davehinson.github.io/IIIFcourseProject/manifests/TerracottaWarriorsManifestCopy.json",
+    "label" : "Terracotta Warriors"
   } ]
 }
